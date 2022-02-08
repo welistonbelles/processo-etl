@@ -1,0 +1,37 @@
+✅ Resultado da primeira query: 
+O número de linhas é: 94157
+
+✅ Resultado da segunda query: 
+Os 3 produtos mais vendidos(pela soma de OrderQty) agrupados pelo campo DaysToManufacture:
+Long-Sleeve Logo Jersey, M
+Mountain-100 Black, 42
+HL Mountain Frame - Black, 48
+
+✅ Resultado da terceira query: 
+Listagem dos nomes dos clientes juntamente da contagem de pedidos efetuados por cada um (Limitado a 5 resultados):
+Nome,  Contagem de Pedidos
+Mason Roberts, 28
+Dalton Perez, 28
+Nancy Chapman, 27
+Daniel Davis, 27
+Samantha Jenkins, 27
+
+
+✅ Resultado da quarta query: 
+Soma total de produtos(OrderQty), juntamente do ProductID e OrderDate (Limitado a 5 resultados):
+ProductID; Name; OrderQty; OrderDate
+712; AWC Logo Cap; 8311; 2011-05-31 00:00:00
+870; Water Bottle - 30 oz.; 6815; 2013-05-30 00:00:00
+711; Sport-100 Helmet, Blue; 6743; 2011-05-31 00:00:00
+715; Long-Sleeve Logo Jersey, L; 6592; 2011-05-31 00:00:00
+708; Sport-100 Helmet, Black; 6532; 2011-05-31 00:00:00
+
+✅ Resultado da quinta query: 
+Ordens de vendas limitadas ao mês de setembro com a dívido superior a 1.000 (Limitado a 5 resultados):
+SalesOrderId; OrderDate; TotalDue
+57150; 2013-09-30 00:00:00; 137721.0
+57186; 2013-09-30 00:00:00; 126230.0
+57105; 2013-09-30 00:00:00; 124249.0
+47990; 2012-09-30 00:00:00; 112859.0
+48043; 2012-09-30 00:00:00; 109751.0
+
